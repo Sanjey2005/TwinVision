@@ -1,0 +1,32 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.18
+
+# Environment
+python-dotenv==1.0.1
+
+# AI / image generation
+torch==2.5.1
+torchvision==0.20.1
+diffusers==0.31.0
+transformers==4.47.1
+accelerate==1.2.1
+safetensors==0.4.5
+
+# Evaluation metrics
+torchmetrics[multimodal]==1.6.0
+pyiqa==0.1.13
+
+# Data
+pandas==2.2.3
+numpy==1.26.4
+
+# Video / image
+Pillow==11.0.0
+
+# Charts
+matplotlib==3.9.4
+
+# Utilities
+tqdm==4.67.1
